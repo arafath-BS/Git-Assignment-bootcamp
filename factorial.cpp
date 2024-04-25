@@ -21,5 +21,7 @@ int main() {
         cout << "Factorial of " << number << " is: " << fact << endl;
     }
 
-    return 0;
+    return 0;  
+    
+    // changed from feacture branch
 }
