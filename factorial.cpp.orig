@@ -21,7 +21,14 @@ int main() {
         cout << "Factorial of " << number << " is: " << fact << endl;
     }
 
+<<<<<<< HEAD
+    return 0;
+
+    // main main main cahned from main branch 
+    
+=======
     return 0;  
     
     // changed from feacture branch
+>>>>>>> feature-branch
 }
