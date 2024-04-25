@@ -9,6 +9,16 @@ unsigned long long factorial(int n) {
         return n * factorial(n - 1);
 }
 
+
+unsigned long long fibonacci(int n) {
+    if (n == 0)
+        return 0;
+    else if (n == 1)
+        return 1;
+    else
+        return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
 int main() {
     int number;
     cout << "Enter a positive integer: ";
@@ -19,6 +29,16 @@ int main() {
     } else {
         unsigned long long fact = factorial(number);
         cout << "Factorial of " << number << " is: " << fact << endl;
+
+
+        unsigned long long fibonacci(int n) {
+    if (n == 0)
+        return 0;
+    else if (n == 1)
+        return 1;
+    else
+        return fibonacci(n - 1) + fibonacci(n - 2);
+}
     }
 
     return 0;  
